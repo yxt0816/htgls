@@ -1,0 +1,171 @@
+/*css document*/
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, th, form, h1, h2, h3, h4, h5, h6, input, textarea, fieldset, figure {
+  margin: 0;
+  padding: 0;
+}
+
+h3, h4{
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: #0c172b;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  width: 254px;
+  height: 47px;
+  color: white;
+  font-size: 14px;
+  line-height: 47px;
+  text-align: center;
+  margin: 0 auto;
+  background: #598ef8;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.ltConten {
+  width: 33%;
+  margin-left: 27px;
+  float: left;
+}
+
+.selDtaa01 {
+  width:100%;
+  height: 391px;
+  border: 2px solid #40486d;
+  margin-bottom: 20px;
+}
+
+.seltitles01 {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #9bad73;
+  line-height: 30px;
+}
+
+.lise01 {
+  width:100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #40486d;
+}
+.lise01 > span {
+  display: block;
+  color: #977945;
+  font-size: 14px;
+}
+
+#selBody01 {
+  width: 100%;
+  height: 331px;
+}
+
+#selBody02 {
+  width: 100%;
+  height: 331px;
+}
+
+.midConten {
+  width: 29%;
+  float: left;
+  margin: 0px 6px;
+}
+
+.midselData {
+  width: 100%;
+  height: 154px;
+}
+
+.midTite {
+  color: #ffef05;
+  font-size: 18px;
+  font-weight: 700;
+  width: 376px;
+  height: 38px;
+  text-align: center;
+}
+
+.midContent {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.midContent > span {
+  display: block;
+  width: 179px;
+  height: 69px;
+  border-radius: 8px;
+  text-align: center;
+}
+.midContent > span > p {
+  color: white;
+  font-size: 14px;
+}
+.midContent > span > h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mid01 {
+  background: #89409a;
+}
+
+.mid02 {
+  background: #568ff6;
+}
+
+.rtConten {
+  width: 33%;
+  float: right;
+  margin-right: 27px;
+}
+
+.rtseltops {
+  width: 100%;
+  height: 340px;
+  border: 1px solid #35496a;
+}
+
+#rtselBody {
+  width: 100%;
+  height: 310px;
+}
+
+#mapssel {
+  width: 100%;
+  height: 657px;
+  background: url(../img/map.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+#sels02 {
+  margin-top: 30px;
+  height: 435px;
+}
+
+#rtselBody02 {
+  width: 100%;
+  height: 405px;
+}
+
+/*# sourceMappingURL=sel.css.map */

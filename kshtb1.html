@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大数据可视化图表1</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: #232939; 
+            width: 100%;
+            height:100%;
+        }
+        header{
+            width:100%;
+            height:60px;
+            background: black;
+            color:#00a888;
+            text-align: center;
+            line-height: 60px;           
+        }
+        header h1{
+            font-weight: 100;
+        }
+        .box1{
+            width: 100%;
+            display: flex;
+            box-sizing: border-box;
+            padding:15px;           
+        }
+        .box1div,.box2div{
+            width: 100%;
+            height:100%;            
+        }
+        .box2{
+            width: 100%;
+            display: flex;
+            box-sizing: border-box;
+            padding:15px;
+        }
+        .box1div span,.box2div span{
+            font-size: 14px;
+            color:#f2fcff;
+        }
+        .box1div div,.box2div div{
+            width: 100%;
+            height:295px;
+            margin-top:15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>某市某厂销售数据可视化图表</h1>
+    </header>
+    <div class="box1">
+        <div class="box1div">
+            <span>地图</span>
+            <div id="box1div1"></div>
+        </div>
+        <div class="box1div">
+            <span>日总销售量及折扣</span>
+            <div id="box1div2"></div>
+        </div>
+        <div class="box1div">
+            <span>移动速度</span>
+            <div id="box1div3"></div>            
+        </div>
+        <div class="box1div">
+            <span>完成率</span>
+            <div id="box1div4"></div>           
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="box2div">
+            <span>预算与支出</span>
+            <div id="box1div5"></div>            
+        </div>
+        <div class="box2div">
+            <span>销售额</span>
+            <div id="box1div6"></div>         
+        </div>
+        <div class="box2div">
+            <span>每日水果销售量</span>
+            <div id="box1div7"></div>            
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>     
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-more.js"></script>                 
+<script type="text/javascript" src="js/exporting.js"></script>    
+
+
+<script type="text/javascript" src="js/kshtb1JS/kshtb12.js"></script>
+<script type="text/javascript" src="js/kshtb1JS/kshtb13.js"></script>
+<script type="text/javascript" src="js/kshtb1JS/kshtb14.js"></script>
+<script type="text/javascript" src="js/kshtb2JS/kshtb21.js"></script>
+<script type="text/javascript" src="js/kshtb2JS/kshtb22.js"></script>
+<script type="text/javascript" src="js/kshtb2JS/kshtb23.js"></script>
+<script type="text/javascript" src="js/kshtb1JS/kshtb11.js"></script>
+
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>           
+
+
+
+

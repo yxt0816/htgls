@@ -1,0 +1,488 @@
+section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+section .aticleAdd {
+  width: 1150px;
+  margin: 88px auto;
+}
+section article {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: 88px;
+  padding: 0px 25px 20px;
+}
+section article .articlediv1 {
+  width: 100%;
+  clear: both;
+}
+section article .articlediv1 .articlediv11 {
+  width: 50%;
+  height: 45px;
+  box-sizing: border-box;
+  padding-right: 15px;
+  float: left;
+  margin-bottom: 20px;
+}
+section article .articlediv1 .articlediv11 h4 {
+  font-size: 22px;
+  color: #2c343f;
+}
+section article .articlediv1 .articlediv11 p {
+  font-size: 14px;
+  color: #2c333b;
+}
+section article .articlediv1 .articlediv12 {
+  width: 50%;
+  height: 45px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  float: left;
+  line-height: 50px;
+}
+section article .articlediv1 .articlediv12 .articlediv121 {
+  width: 168px;
+  height: 35px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  line-height: 32px;
+  float: left;
+  background: #ffffff;
+}
+section article .articlediv1 .articlediv12 .articlediv121 a {
+  font-size: 14px;
+  color: #2c333b;
+}
+section article .articlediv1 .articlediv12 .articlediv121 span {
+  display: block;
+  line-height: 8px;
+}
+section article .articlediv1 .articlediv12 .articlediv121 span i {
+  display: block;
+  font-size: 8px;
+}
+@media screen and (max-width: 880px) {
+  section article .articlediv1 .articlediv12 .articlediv121 {
+    width: 150px;
+  }
+}
+section article .articlediv1 .articlediv12 .articlediv122 {
+  background: #f9f9f9;
+  float: left;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+section article .articlediv1 .articlediv12 .articlediv122 span {
+  font-size: 8px;
+  color: #f9f9f9;
+  width: 42px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #e2e3e5;
+  text-align: center;
+  display: block;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+section article .articlediv1 .articlediv12 .articlediv122 span:hover {
+  cursor: pointer;
+}
+section article .articlediv1 .articlediv12 .articlediv122 span i {
+  font-size: 8px;
+  color: #5b5c5e;
+}
+section article .articlediv1 .articlediv12 .articlediv122 .articlediv122span2 {
+  border-radius: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+section article .articlediv1 .articlediv12 .articlediv122 input {
+  float: left;
+  height: 35px;
+  text-align: center;
+  display: block;
+  border: 1px solid #e2e3e5;
+}
+@media screen and (max-width: 1450px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 157px;
+  }
+}
+@media screen and (max-width: 1386px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 1354px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 1311px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1272px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 1211px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  section article .articlediv1 .articlediv12 .articlediv122 .articlediv122span2 {
+    clear: left;
+  }
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  section article .articlediv1 .articlediv12 .articlediv122 .articlediv122span2 {
+    clear: left;
+  }
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    clear: left;
+    width: 110px;
+  }
+}
+@media screen and (max-width: 1115px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 95px;
+  }
+}
+@media screen and (max-width: 1049px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 980px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 42px;
+  }
+}
+@media screen and (max-width: 950px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 955px) {
+  section article .articlediv1 .articlediv12 .articlediv122 .articlediv122span2 {
+    clear: both;
+  }
+}
+@media screen and (max-width: 930px) {
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 920px) {
+  section article .articlediv1 .articlediv12 .articlediv122 span {
+    width: 35px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv1 .articlediv12 .articlediv122 {
+    display: flex;
+  }
+}
+section article .articlediv1 .articlediv12 .articlediv123 {
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  background: #7bb859;
+  color: #f5ffe6;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+}
+section article .articlediv1 .articlediv12 .articlediv123:hover {
+  cursor: pointer;
+  background: #68a345;
+}
+@media screen and (max-width: 800px) {
+  section article .articlediv1 .articlediv12 .articlediv121 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1180px) {
+  section article .articlediv1 .articlediv12 .articlediv123 {
+    height: 75px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  section article .articlediv1 .articlediv12 .articlediv123 {
+    height: 110px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv1 .articlediv12 .articlediv123 {
+    height: 35px;
+  }
+}
+@media screen and (max-width: 880px) {
+  section article .articlediv1 .articlediv12 .articlediv123 {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 800px) {
+  section article .articlediv1 .articlediv12 .articlediv121, section article .articlediv1 .articlediv12 .articlediv122, section article .articlediv1 .articlediv12 .articlediv123 {
+    clear: left;
+    width: 100%;
+  }
+  section article .articlediv1 .articlediv12 .articlediv122 {
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  section article .articlediv1 .articlediv12 .articlediv122 input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1180px) {
+  section article .articlediv1 .articlediv11, section article .articlediv1 .articlediv12 {
+    height: 75px;
+  }
+  section article .articlediv1 .articlediv11 {
+    box-sizing: border-box;
+    padding-top: 15px;
+  }
+  section article .articlediv1 .articlediv122span2 {
+    clear: left;
+  }
+  section article .articlediv1 input {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  section article .articlediv1 .articlediv11, section article .articlediv1 .articlediv12 {
+    height: 110px;
+  }
+  section article .articlediv1 .articlediv11 {
+    box-sizing: border-box;
+    padding-top: 30px;
+  }
+  section article .articlediv1 .articlediv122span2 {
+    clear: left;
+  }
+  section article .articlediv1 input {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv1 .articlediv11, section article .articlediv1 .articlediv12 {
+    height: 45px;
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  section article .articlediv1 .articlediv11, section article .articlediv1 .articlediv12 {
+    clear: left;
+    width: 100%;
+  }
+  section article .articlediv1 .articlediv121 {
+    width: 100%;
+  }
+  section article .articlediv1 .articlediv12 {
+    padding-left: 0px;
+    height: 100%;
+  }
+}
+section article .articlediv2 {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+section article .articlediv2 .articlediv {
+  width: 50%;
+  height: 337px;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 30px;
+  padding-bottom: 22px;
+}
+section article .articlediv2 .articlediv .articledivdiv {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e7e8ec;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e7e8ec;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  display: flex;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 p {
+  width: 40%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #282f37;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 div {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 div a {
+  display: block;
+  width: 88px;
+  height: 26px;
+  border: 1px solid #e7e8ec;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  line-height: 26px;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 div a i {
+  font-size: 14px;
+  color: #273747;
+  margin-right: 5px;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv1 div a span {
+  font-size: 14px;
+  color: #2c3135;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 {
+  box-sizing: border-box;
+  padding: 24px;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 .articledivdiv21 {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  display: flex;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 .articledivdiv21 i {
+  margin: 0px 10px;
+  color: #84af68;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 .articledivdiv21 p {
+  line-height: 1.2;
+  font-size: 14px;
+  color: #84af68;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 .articledivdiv21 p span {
+  font-size: 20px;
+  color: #2b343b;
+}
+section article .articlediv2 .articlediv .articledivdiv .articledivdiv2 .articledivdiv22 {
+  width: 100%;
+  height: 150px;
+  /* background: blue; */
+}
+@media screen and (max-width: 800px) {
+  section article .articlediv2 .articlediv {
+    clear: left;
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+section article .articlediv3 {
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  clear: both;
+}
+section article .articlediv3 .articlediv31 {
+  width: 100%;
+  height: 680px;
+  border: 1px solid #e8e8e8;
+}
+section article .articlediv3 .articlediv31 table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #ffffff;
+}
+section article .articlediv3 .articlediv31 table th {
+  height: 43px;
+  line-height: 43px;
+  border-bottom: 2px solid #e7e8ec;
+  border-bottom: 2px solid #e7e8ec;
+  text-align: left;
+  color: #2d3741;
+  font-size: 14px;
+}
+section article .articlediv3 .articlediv31 table td {
+  border-bottom: 1px solid #e7e8ec;
+  height: 70px;
+  text-align: left;
+  font-size: 14px;
+}
+section article .articlediv3 .articlediv31 table a {
+  width: 16px;
+  height: 16px;
+  background: #dfe2e7;
+  border-radius: 3px;
+  display: block;
+  margin-left: 10px;
+}
+section article .articlediv3 .articlediv31 table tr td:nth-child(2) {
+  color: #93c7ee;
+}
+section article .articlediv3 .articlediv31 .lasttddiv {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 25px;
+}
+section article .articlediv3 .articlediv31 .lasttddiv .lasttddiv1 {
+  width: 164px;
+  display: flex;
+  height: 33px;
+  border-radius: 10px;
+  border: 1px solid #e1e0dc;
+}
+section article .articlediv3 .articlediv31 .lasttddiv .lasttddiv1 a {
+  display: block;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  border-right: 1px solid #e0dee3;
+  margin-left: 0px;
+  border-radius: 0px;
+  font-size: 12px;
+  color: #71a6c6;
+}
+section article .articlediv3 .articlediv31 .lasttddiv .lasttddiv1 a:hover {
+  background: #e8ebf0;
+}
+section article .articlediv3 .articlediv31 .lasttddiv .lasttddiv2 {
+  line-height: 33px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #808589;
+}
+
+/*# sourceMappingURL=lingshou.css.map */

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/sel.css">
+    <title>大数据可视化图表2</title>
+</head>
+<body>
+<div class="title">临海商铺单月销售展示</div>
+    <div class="ltConten">
+        <div class="selDtaa01">
+            <div class="seltitles01">上月销量统计</div>
+            <div class="lise01">
+                <span>金额(万元):3.9244</span>
+                <span>销量(万斤):3.2347</span>
+            </div>
+            <div id="selBody01"></div>
+        </div>
+        <div class="selDtaa01">
+            <div class="seltitles01">上周销量统计</div>
+            <div class="lise01">
+                <span>金额(万元):1.9249</span>
+                <span>销量(万斤):1.3827</span>
+            </div>
+            <div id="selBody02"></div>
+        </div>
+    </div> 
+
+<div class="midConten">
+    <div class="midselData">
+        <div class="midTite">2018年9月</div>
+        <div class="midContent">
+            <span class="mid01">
+                <p>海鲜类上行销售额(元)</p>
+                <h3>41,284,665</h3>
+            </span>
+            <span class="mid02">
+                    <p>海鲜类上行销售量(斤)</p>
+                    <h3>59,664,028</h3>
+            </span>
+        </div>
+    </div>
+    
+    <div id="mapssel"></div>
+   </div> 
+
+   <div class="rtConten">
+    <div class="rtseltops">
+        <div class="seltitles01">单品销量排行</div>
+        <div id="rtselBody"></div>
+    </div>
+    <div class="rtseltops" id="sels02">
+        <div class="seltitles01">全国分部实时销售数据(成品青鱼)</div>
+        <div id="rtselBody02"></div>
+    </div>
+   </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/echarts .js"></script>
+<script type="text/javascript" src="js/dats.js"></script>
+
+<script type="text/javascript">
+ $(function(){
+    getsel01();
+    getrtsel01();
+    getrtData02();
+    getslemap();
+ });
+</script>

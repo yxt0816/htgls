@@ -1,0 +1,490 @@
+section {
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding-bottom: 495px;
+}
+section .aticleAdd {
+  width: 900px;
+  margin: 65px auto;
+}
+section article {
+  width: 100%;
+  height: 900px;
+  margin-top: 65px;
+  box-sizing: border-box;
+  padding: 0px 15px;
+}
+section article .articlediv1 {
+  width: 100%;
+  height: 110px;
+}
+section article .articlediv1 .articlediv1div {
+  width: 35%;
+  height: 85px;
+  margin-top: 25px;
+  box-sizing: border-box;
+  padding-right: 55px;
+  float: left;
+  padding-bottom: 25px;
+}
+section article .articlediv1 .articlediv1div div {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e6e6e8;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 18px;
+}
+section article .articlediv1 .articlediv1div div h4 span {
+  font-size: 16px;
+  color: #2c333b;
+}
+section article .articlediv1 .articlediv1div div p span {
+  font-size: 16px;
+  color: #60849e;
+}
+section article .articlediv1 .articlediv1div div p span i {
+  color: #86b565;
+}
+section article .articlediv1 .articlediv1div3 {
+  width: 30%;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv1 .articlediv1div {
+    width: 100%;
+    clear: left;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+}
+section article .articlediv2 {
+  width: 100%;
+  height: 110px;
+  border: 2px solid #e3e6eb;
+  border-bottom: none;
+  display: flex;
+}
+section article .articlediv2 .articlediv2div {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #e5e6e8;
+  box-sizing: border-box;
+  padding: 25px 20px;
+  display: flex;
+}
+section article .articlediv2 .articlediv2div div {
+  width: 80%;
+  height: 100%;
+}
+section article .articlediv2 .articlediv2div div p {
+  color: #909599;
+  font-size: 14px;
+  line-height: 1.5;
+}
+section article .articlediv2 .articlediv2div div h1 {
+  color: #283545;
+  font-size: 30px;
+  line-height: 1.5;
+}
+section article .articlediv2 .articlediv2div .articlediv2div1 {
+  width: 20%;
+  height: 22px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  background: #6fb44a;
+  border-radius: 5px;
+  color: #e8ffe5;
+  margin-top: 16px;
+}
+section article .articlediv3 {
+  width: 100%;
+  height: 268px;
+  border: 1px solid #cfeeff;
+  margin-bottom: 20px;
+}
+section article .articlediv4 {
+  width: 100%;
+  height: 385px;
+}
+section article .articlediv4 .articlediv4div {
+  width: 35%;
+  float: left;
+  box-sizing: border-box;
+  padding-bottom: 22px;
+  padding-right: 32px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e7e7e7;
+  background: #ffffff;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdivimg1 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 h1 {
+  width: 100%;
+  line-height: 1.5;
+  text-align: center;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 p {
+  width: 100%;
+  line-height: 1.5;
+  text-align: center;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv11 {
+  width: 100%;
+  margin-top: 14px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv11 div {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  text-align: center;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv11 div span {
+  display: inline-block;
+  border-radius: 5px;
+  background: #f7b567;
+  color: #e6fdff;
+  box-sizing: border-box;
+  padding: 0px 5px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv12 {
+  width: 135px;
+  height: 45px;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  line-height: 45px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv12 i {
+  font-size: 16px;
+  color: #273542;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdiv1 .articlediv4divdiv12 span {
+  font-size: 16px;
+  color: #293036;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs1 {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 48px;
+  box-sizing: border-box;
+  padding: 0px 18px;
+  font-size: 16px;
+  color: #252d3a;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs1 i {
+  font-size: 22px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs {
+  width: 100%;
+  height: 48px;
+  border-top: 1px solid #e8e8ea;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  line-height: 48px;
+  box-sizing: border-box;
+  padding: 9px 18px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div {
+  width: 72%;
+  height: 100%;
+  display: flex;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div .articlediv4divdivsspan {
+  line-height: 30px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div span {
+  display: block;
+  margin-right: 5px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div p {
+  line-height: 100%;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div p a {
+  display: flex;
+  font-size: 12px;
+  color: #393c45;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div p a span {
+  font-weight: 600;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div p a .articlediv4divdivsspan3 {
+  color: #2c3642;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs div p .articlediv4divdivsspan4 {
+  font-size: 12px;
+  color: #6f7277;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs h3 {
+  width: 28%;
+  height: 100%;
+  line-height: 30px;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs h3 p {
+  float: right;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs h3 span {
+  font-size: 16px;
+  color: #2f343a;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivs h3 i {
+  font-size: 16px;
+  color: #88b36e;
+}
+section article .articlediv4 .articlediv4div .articlediv4divdivss p a span {
+  color: #699bbc;
+}
+section article .articlediv4 .articlediv4div3 {
+  width: 30%;
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv4 .articlediv4div {
+    width: 100%;
+    clear: left;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  section article .articlediv4 {
+    height: 955px;
+  }
+}
+section article .articlediv5 {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e7e7e9;
+}
+section article .articlediv5 .articlediv51 {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 15px;
+}
+section article .articlediv5 .articlediv51 .articlediv51div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv511 {
+  width: 38%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #2e2f34;
+}
+@media screen and (max-width: 1439px) {
+  section article .articlediv5 .articlediv51 .articlediv51div .articlediv511 {
+    height: 75px;
+    line-height: 75px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section article .articlediv5 .articlediv51 .articlediv51div .articlediv511 {
+    width: 20%;
+  }
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 {
+  width: 62%;
+  height: 100%;
+  display: flex;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 {
+  position: relative;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 a {
+  width: 96px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #e8e8e8;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 a:hover {
+  cursor: pointer;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 div {
+  position: absolute;
+  width: 158px;
+  height: 112px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  top: 40px;
+  display: none;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 div p {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5121 div p:hover {
+  background: #f8f9fb;
+  color: #5da3d4;
+  cursor: pointer;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5122 {
+  width: 100%;
+  height: 70px;
+  margin-left: 30px;
+  clear: left;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5122 .articlediv5122div {
+  width: 250px;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  display: flex;
+}
+section article .articlediv5 .articlediv51 .articlediv51div .articlediv512 .articlediv5122 .articlediv5122div input {
+  width: 195px;
+  height: 30px;
+  text-indent: 12px;
+}
+@media screen and (max-width: 1439px) {
+  section article .articlediv5 .articlediv51 {
+    height: 95px;
+  }
+}
+section article .articlediv5 .articlediv51Add {
+  height: 100px;
+}
+section article .articlediv5 table {
+  width: 100%;
+  height: 415px;
+  text-align: center;
+}
+section article .articlediv5 table td {
+  border-bottom: 1px solid #e8e8e8;
+}
+section article .articlediv5 table th {
+  border-top: 2px solid #e6e7ec;
+  border-bottom: 2px solid #e6e7ec;
+}
+section article .articlediv5 table td {
+  height: 60px;
+}
+section article .articlediv5 table tr td:first-child {
+  color: #373a43;
+  font-size: 14px;
+}
+section article .articlediv5 table tr td:nth-child(2) {
+  color: #6c7175;
+  font-size: 14px;
+  font-size: italic;
+}
+section article .articlediv5 table tr td:nth-child(3) {
+  color: #8abddc;
+  font-size: 14px;
+}
+section article .articlediv5 table tr td:nth-child(4) {
+  color: #2d3238;
+  font-size: 14px;
+}
+section article .articlediv5 table tr td:last-child {
+  position: relative;
+}
+section article .articlediv5 table tr td span {
+  color: #6c9ec3;
+  font-size: 14px;
+}
+section article .articlediv5 table a {
+  width: 38px;
+  height: 17px;
+  display: block;
+  background: #f1b765;
+  font-size: 12px;
+  color: #fffadd;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+section article .articlediv5 table div {
+  width: 34px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #fffadd;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #e8e8ea;
+}
+section article .articlediv5 table div i {
+  font-size: 14px;
+  color: #32353c;
+}
+section article .articlediv5 table .tablediv2 {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  width: 158px;
+  height: 138px;
+  border-color: #dcd9d2;
+  border-radius: 0px;
+  background: #ffffff;
+  z-index: 3;
+  display: none;
+}
+section article .articlediv5 table .tablediv2 p {
+  line-height: 40px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 18px;
+  color: #272729;
+  font-size: 14px;
+}
+section article .articlediv5 table .tablediv2 p:hover {
+  background: #f8f9fb;
+}
+section article .articlediv5 table .tablediv2 p:hover i, section article .articlediv5 table .tablediv2 p:hover span {
+  color: #729fc0;
+}
+section article .articlediv5 table .tablediv2 p i {
+  margin-right: 5px;
+}
+section article .articlediv5 table .tablediv2 p span {
+  color: #272729;
+  font-size: 14px;
+}
+section article .articlediv5 table .tablediv2 p:last-child {
+  line-height: 50px;
+}
+section article .articlediv5 table .tablediv2 p:last-child span, section article .articlediv5 table .tablediv2 p:last-child i {
+  color: #ec4557;
+}
+section article .articlediv5 table .tablediv2 p:last-child:hover {
+  color: #ec4557;
+}
+
+/*# sourceMappingURL=jinrong.css.map */
